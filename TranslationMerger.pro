@@ -5,11 +5,11 @@ CONFIG += c++11
 SOURCES += main.cpp \
     tsfile.cpp \
     documentmanager.cpp
-
+0
 RESOURCES += qml.qrc
 
-INCLUDEPATH += /usr/local/include/pugixml-1.8
-LIBS += -L/usr/local/lib/pugixml-1.8 -lpugixml
+INCLUDEPATH += /usr/local/include/pugixml-1.9
+LIBS += -L/usr/local/lib/pugixml-1.9 -lpugixml
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
